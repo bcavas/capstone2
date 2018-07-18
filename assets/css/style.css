@@ -1,0 +1,30 @@
+footer {
+  background-color: #090c02 !important;                                        
+}
+
+footer p {
+  color: white;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+footer span {
+  color: white;
+}
+                                                      
+footer a {
+  color: #ff0022;
+}
+
+.socialmed {
+  margin-top: 5px;
+}
+
+.socialmed a {
+  margin-right: 5px;
+}
+
+.preview {
+	width: 200px;
+	height: 200px;
+}

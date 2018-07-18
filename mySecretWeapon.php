@@ -1,0 +1,1 @@
+SELECT productName FROM products WHERE productCode IN (SELECT productCode FROM orderdetails WHERE orderNumber IN (SELECT orderNumber FROM orders WHERE customerNumber = (SELECT customerNumber FROM customers WHERE customerName = x)))
